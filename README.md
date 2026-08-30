@@ -75,48 +75,48 @@ This CUJ acts as the foundation for the AI agent's behavior and functionality. I
 
 ```text
                     ┌──────────────────────────┐
-                    │        Customer           │
-                    │  Party / Event Details     │
+                    │        Customer          │
+                    │  Party / Event Details   │
+                    └────────────┬─────────────┘
+                                 │
+                                 ▼
+                    ┌──────────────────────────┐
+                    │      CymbalMart UI       │
+                    │  • Event Inputs          │
+                    │  • Shopping List         │
+                    │  • Budget                │
+                    │  • Chatbot               │
+                    │  • Voice Control         │
+                    └────────────┬─────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────-─┐
+                    │      Gemini / AI          │
+                    │  • Understand Intent      │
+                    │  • Plan Event             │
+                    │  •Generate Recommendations│
+                    │  • Refine Shopping List   │
                     └────────────┬──────────────┘
                                  │
                                  ▼
                     ┌──────────────────────────┐
-                    │      CymbalMart UI         │
-                    │  • Event Inputs             │
-                    │  • Shopping List            │
-                    │  • Budget                   │
-                    │  • Chatbot                  │
-                    │  • Voice Control            │
-                    └────────────┬──────────────┘
+                    │ Shopping Plan Generator  │
+                    │  • Products              │
+                    │  • Quantities            │
+                    │  • Estimated Costs       │
+                    │  • Budget Alignment      │
+                    └────────────┬─────────────┘
                                  │
                                  ▼
                     ┌──────────────────────────┐
-                    │      Gemini / AI           │
-                    │  • Understand Intent        │
-                    │  • Plan Event                │
-                    │  • Generate Recommendations │
-                    │  • Refine Shopping List     │
-                    └────────────┬──────────────┘
+                    │  Dynamic Budget Engine   │
+                    │  • Update Items          │
+                    │  • Recalculate Total     │
+                    └────────────┬─────────────┘
                                  │
                                  ▼
                     ┌──────────────────────────┐
-                    │ Shopping Plan Generator    │
-                    │  • Products                 │
-                    │  • Quantities                │
-                    │  • Estimated Costs           │
-                    │  • Budget Alignment           │
-                    └────────────┬──────────────┘
-                                 │
-                                 ▼
-                    ┌──────────────────────────┐
-                    │  Dynamic Budget Engine      │
-                    │  • Update Items              │
-                    │  • Recalculate Total         │
-                    └────────────┬──────────────┘
-                                 │
-                                 ▼
-                    ┌──────────────────────────┐
-                    │  Final Party Shopping Plan  │
+                    │ Final Party Shopping Plan│
                     └──────────────────────────┘
 ```
 
