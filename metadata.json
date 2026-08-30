@@ -1,0 +1,10 @@
+{
+  "name": "CymbalMart Shopping Agent",
+  "description": "An intelligent AI shopping assistant and event organizer that plans party themes, computes exact food and beverage quantities, builds categorized shopping checklists, optimizes budgets, and recommends store runs.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
